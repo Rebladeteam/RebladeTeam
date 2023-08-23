@@ -1,137 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ReBlade Team</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Saira:wght@800&display=swap"
-        rel="stylesheet">
-
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        body {
-            height: 100vh;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-        }
-
-        h2 {
-            font-family: 'Saira', sans-serif;
-            font-weight: 600;
-            text-transform: uppercase;
-            color: white;
-            text-shadow: 0 0 1px transparent, 0 1px 2px rgb(0 0 0 / 50%);
-        }
-
-        body >img {
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-        }
-
-        section {
-            display: grid;
-            place-items: center;
-            position: absolute;
-            inset: 0;
-            overflow-y: scroll;
-        }
-        
-        section div {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 10px;
-            justify-content: center;
-            align-items: center;
-        }
-
-        section > div {
-            padding: 100px 10px;
-        }
-
-        section div img {
-            width: 100px;
-            aspect-ratio: 1;
-            border-radius: 50%;
-            box-shadow: 0 0 8px 1px lightblue;
-        }
-
-        a {
-            display: flex;
-            width: 100%;
-            align-items: center;
-            justify-content: center;
-            border: 1.5px solid white;
-            padding: 10px;
-            color: white;
-            text-decoration: none;
-            gap: 20px;
-            align-items: center;
-            border-radius: 4px;
-            transition-duration: 200ms;
-        }
-
-        a:hover {
-            background: white;
-            color: #0f172a;
-        }
-
-        a i {
-            font-size: 1.3em;
-        }
-
-
-    </style>
+    <title>ReBlade I Team</title>
+    <meta property="og:image" content="https://cdn.discordapp.com/icons/1142724527265169461/510ef9a440256dfab92f4aff1739bd9c.webp">
+    <link rel="icon" href="https://cdn.discordapp.com/icons/1142724527265169461/510ef9a440256dfab92f4aff1739bd9c.webp">
 </head>
-
 <body>
-    <img src="https://images.unsplash.com/photo-1508020268086-b96cf4f4bb2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="bg" />
-    <section>
-        <div>
-            <img src="https://cdn.discordapp.com/icons/1142724527265169461/510ef9a440256dfab92f4aff1739bd9c.webp" alt="dp" />
-            <h2>Reblade Team</h2>
-            <div>
-                <a href="https://www.youtube.com/channel/UCHtcFl1HKJmvW-C-u0Cbmbw">
-                    <i class="fa-brands fa-youtube"></i>
-                    <p>youtube</p>
-                </a>
-                <a href="https://www.tiktok.com/@bladezackliy">
-                    <i class="fa-brands fa-tiktok"></i>
-                    <p>Tiktok</p>
-                </a>
-                <a href="https://www.facebook.com/MRhackgame1/">
-                    <i class="fa-brands fa-facebook"></i>
-                    <p>Facebook</p>
-                </a>
-                <a href="https://discord.gg/3swAq7ng">
-                    <i class="fa-brands fa-discord"></i>
-                    <p>discord server</p>
-                </a>
-            </div>
-        </div>
-    </section>
-</body>
+    
+    <style>
+        body {
+          background-image: url("data:image/png;base64,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");
+        }
+  </style>
+        
+        <div class="header">
+          <a href="#" class="logo">RB</a>
+          <div class="header-right">
+            <a class="active" href="#home">Home</a>
+            <a href="ExecutorRoblox.html">Executor Roblox</a>
+            <a href="links.html">links</a>
 
+          </div>
+        </div>
+        <style>
+          /* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+        </style>
+
+<style>
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+  </style>
+<div class="button-container-div">
+   <a href="https://www.youtube.com/@BladeZackliy" class="button">Youtube Channel</a>
+   <style>img {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  z-index: 20;
+}
+</style>
+    </div>
+
+    <h2>Reblade Channel</h2> <style>        body { 
+      color: #f1f1f1; 
+      div {
+  text-align: center;
+  }         
+           }
+</style>
+
+</body>
 </html>
